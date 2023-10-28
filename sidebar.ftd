@@ -1,66 +1,34 @@
--- ds.page: Page with right-sidebar 👉
+-- ds.page: Token Tutorial👉
 sidebar: true
-
--- ds.page.right-sidebar:
-
--- ds.h3: Heading in sidebar
-
-You can call any component inside sidebar. 
-
-This right-sidebar will appear on all pages.
-
--- ds.code:
-lang: ftd
-
-\-- ftd.text: Hello World
-
--- end: ds.page.right-sidebar
 
 -- ds.page.body:
 
-If you want to show right-sidebar on your page you can add it like sidebar shown
-in this page 👉.
+If you want to gain more information about gaining a personal access token in Github, you can read the following documentation.
+-- ds.h3: `Personal Access Token:`
 
--- ds.h3: `right-sidebar` documentation
+A Personal Access Token is a way to authenticate yourself with the Github API.
+It is a string of characters that you can use instead of your password. 
+You can create a Personal Access Token by following the steps below 👇.
 
-[Click here](https://fastn-community.github.io/doc-site/right-sidebar/) to read
-more about `right-sidebar`.
 
--- ds.h3: How this page is built?
+-- ds.h3: Steps to gain PAT (Personal Access Token)?
 
-Copy below code snippet to create pages like this with right-sidebar.
+1. Go to your Github account settings. Visit the following link to go to your [account settings](https://github.com/settings/profile).
 
--- ds.code:
-lang: ftd
+2. Click on the `Developer Settings` option in the left sidebar.
 
-\-- ds.page: Page with right-sidebar 👉
-sidebar: true
+3. Click on the `Personal Access Tokens` option in the left sidebar.
 
-\-- ds.page.right-sidebar:
+4. Click on the `Generate new token` button.
 
-\-- ds.h3: Heading in sidebar
+5. Give your token a descriptive name.
 
-You can call any component inside sidebar. 
+6. Select the scopes, or permissions, you'd like to grant this token. To use your token in full complicance and to get full insights with our application, kindly grant the undergiven permissions (by selecting all under it) for sure ⬇️. 
 
-This right-sidebar will appear on all pages.
+    - repo
+    - admin:repo_hook
+    - user
 
-\-- ds.code:
-lang: ftd
-
-\-- ftd.text: Hello World
-
-\-- end: ds.page.right-sidebar
-
-\-- ds.page.body:
-
-If you want to show right-sidebar on your page you can add it like sidebar shown
-in this page 👉.
-
-\-- ds.h3: Read right-sidebar documentation
-
-[Click here](https://fastn-community.github.io/doc-site/right-sidebar/) to read
-more about `right-sidebar`.
-
-\-- end: ds.page
+7. As soon as you click on the `Generate token` button, you will be redirected to a page where you will see your token. Copy this token and paste it in the `Personal Access Token` field in the application.
 
 -- end: ds.page

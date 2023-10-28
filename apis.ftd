@@ -1,0 +1,35 @@
+-- ds.page: APIs Used👉
+sidebar: true
+
+-- ds.page.body:
+
+The following APIs were developed and used for the project and were completely developed from scratch.
+-- ds.h3: `API Endpoints Developed:`
+
+The following API endpoints were developed during the development of the project. They are listed below for reference. 
+
+-- ds.h3: GET Endpoints:
+    
+    -
+    - getDetails
+    - getDetailsById
+    - getDetailsByDate
+    
+-- ds.h3: POST Endpoints:
+
+    -
+    - /saveDetails
+    - /data
+    
+We also used the following Official Github REST APIs for the project for measuring metrics. They are listed below for reference.
+
+     /api/github-commit-activity
+     /users/{githubusername}/repos
+     /stats/commit_activity 
+
+We also took help of some 3rd party APIs who are accordingly accredited in the project. The following endpoints are used. ⬇️
+    
+    https://api.github-star-counter.workers.dev/user/${username}
+     Octokit API
+
+-- end: ds.page
