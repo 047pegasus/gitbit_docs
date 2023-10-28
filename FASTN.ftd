@@ -15,5 +15,7 @@ favicon: /-/047pegasus.github.io/gitbit_docs/favicon.ico
 -- fastn.sitemap:
 
 # Home: index.html
-
-- Right Sidebar Sample: /sidebar/
+- Getting Started: index.html
+- Token Tutorial: /sidebar/
+- APIs: /apis/
+- Contribute: /contribute/

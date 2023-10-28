@@ -1,0 +1,21 @@
+-- ds.page: Contribute to the Project 🚀
+sidebar: true
+
+-- ds.page.body:
+-- ds.h2: To contribute to the project you may do the mentioned stuff to create a Valid PR. 
+
+-- ds.h3: `Getting Started with CONTRIBUTING.md:`
+
+Follow the following steps before creating a merge request to this repository ⬇️ 
+
+1. Fork the repository on GitHub.
+2. Clone the forked repository to your local machine.
+3. Create a branch from `main` and give it a meaningful name (e.g. `my-awesome-feature`).
+
+After a successful fork and cloning of the repository, you may proceed with the following steps to create a valid PR.
+
+4. Write a meaningful commit code following the CONTRIBUTING.md file in 'master' branch.
+5. Create a pull request and describe what your changes do and how you tested them.
+6. Wait for the maintainers to review your pull request and merge it.
+
+-- end: ds.page
