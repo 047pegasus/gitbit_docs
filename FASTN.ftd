@@ -1,0 +1,19 @@
+-- import: fastn
+
+-- fastn.package: 047pegasus.github.io/gitbit_docs
+favicon: /-/047pegasus.github.io/gitbit_docs/favicon.ico
+
+-- fastn.dependency: fastn-community.github.io/doc-site as doc-site
+-- fastn.dependency: fastn-community.github.io/footer
+-- fastn.dependency: fastn-community.github.io/roboto-typography
+-- fastn.dependency: fastn-community.github.io/dark-flame-cs
+
+-- fastn.auto-import: 047pegasus.github.io/gitbit_docs/FASTN/ds
+-- fastn.auto-import: 047pegasus.github.io/gitbit_docs/assets
+-- fastn.auto-import: doc-site
+
+-- fastn.sitemap:
+
+# Home: index.html
+
+- Right Sidebar Sample: /sidebar/
